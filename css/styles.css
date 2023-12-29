@@ -13,20 +13,20 @@ body {
 }
 .header-logo {
     color: var(--IRIS, #4D5AE5);
-        font-family: Raleway;
+        font-family: Raleway sans-serif;
         font-size: 18px;
         font-weight: 700;
-        line-height: 1.16;
+        line-height: 1.17;
         letter-spacing: 0.54px;
         text-transform: uppercase;
         text-decoration: none;
 }
 .header-logo-studio {
     color: var(--NAVY-BLUE, #2E2F42);
-        font-family: Raleway;
+        font-family: Raleway sans-serif;
         font-size: 18px;
         font-weight: 700;
-        line-height: 1.16;
+        line-height: 1.17;
         letter-spacing: 0.54px;
         text-transform: uppercase;
         text-decoration: none;
@@ -41,13 +41,18 @@ body {
 .page-nav-item:active {
     color:#404BBF;
 }
-.adress-link {
+.contacts {
+    font-style: normal;
+}
+]
+)
+.contacts-link {
     color:#434455;
     text-decoration: none;
 }
-.adress-link:hover,
-.adress-link:focus,
-.adress-link:active {
+.contacts-link:hover,
+.contacts-link:focus,
+.contacts-link:active {
     color: #404BBF;
 }
 .hero-section {
