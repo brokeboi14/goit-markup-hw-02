@@ -1,5 +1,5 @@
 body {
-    font-family: Roboto sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -13,7 +13,7 @@ body {
 }
 .header-logo {
     color: var(--IRIS, #4D5AE5);
-        font-family: Raleway sans-serif;
+        font-family: "Raleway", sans-serif;
         font-size: 18px;
         font-weight: 700;
         line-height: 1.17;
@@ -23,7 +23,7 @@ body {
 }
 .header-logo-studio {
     color: var(--NAVY-BLUE, #2E2F42);
-        font-family: Raleway sans-serif;
+        font-family: "Raleway", sans-serif;
         font-size: 18px;
         font-weight: 700;
         line-height: 1.17;
@@ -44,10 +44,8 @@ body {
 .contacts {
     font-style: normal;
 }
-]
-)
 .contacts-link {
-    color:#434455;
+    color: #434455;
     text-decoration: none;
 }
 .contacts-link:hover,
@@ -69,7 +67,7 @@ body {
 .button {
     background-color: var(--IRIS, #4D5AE5);
     color: var(--WHITE, #FFF);
-        font-family: inherit;
+        font-family: "Roboto" sans-serif;
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.64px;
@@ -130,7 +128,7 @@ body {
 }
 .footer-logo {
     color: var(--IRIS, #4D5AE5);
-        font-family: Raleway;
+        font-family: "Raleway", sans-serif;
         font-size: 18px;
         font-weight: 700;
         line-height: 1.17;
@@ -140,7 +138,7 @@ body {
 }
 .footer-logo-studio {
     color: var(--CLOUD, #F4F4FD);
-        font-family: Raleway sans-serif;
+        font-family: "Raleway", sans-serif;
         font-size: 18px;
         font-weight: 700;
         line-height: 1.17;
